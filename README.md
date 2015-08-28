@@ -21,6 +21,7 @@ Example Implementation:
 ```html
 
     <p class="welcome-message">
+    		<component class="Claromentis\Core\Widget\JSLocalize" keys="main.intranethome.good_afternoon, main.intranethome.good_morning">
 		<script type="text/javascript">
     		greet();
 		</script>
